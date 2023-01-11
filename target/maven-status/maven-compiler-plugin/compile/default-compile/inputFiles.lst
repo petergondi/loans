@@ -1,0 +1,17 @@
+/Users/optimus-prime/Optimus/loans/src/main/java/com/project/loans/Model/Loans.java
+/Users/optimus-prime/Optimus/loans/src/main/java/com/project/loans/Service/SmsService.java
+/Users/optimus-prime/Optimus/loans/src/main/java/com/project/loans/LoansApplication.java
+/Users/optimus-prime/Optimus/loans/src/main/java/com/project/loans/Repository/ContactRepository.java
+/Users/optimus-prime/Optimus/loans/src/main/java/com/project/loans/Repository/RepaymentRepository.java
+/Users/optimus-prime/Optimus/loans/src/main/java/com/project/loans/Service/ContactServiceImpl.java
+/Users/optimus-prime/Optimus/loans/src/main/java/com/project/loans/Service/SmsServiceImpl.java
+/Users/optimus-prime/Optimus/loans/src/main/java/com/project/loans/Service/LoanService.java
+/Users/optimus-prime/Optimus/loans/src/main/java/com/project/loans/Service/LoanServiceImpl.java
+/Users/optimus-prime/Optimus/loans/src/main/java/com/project/loans/Repository/SmsRepository.java
+/Users/optimus-prime/Optimus/loans/src/main/java/com/project/loans/Model/Sms.java
+/Users/optimus-prime/Optimus/loans/src/main/java/com/project/loans/Model/Contact.java
+/Users/optimus-prime/Optimus/loans/src/main/java/com/project/loans/Controller/LoansController.java
+/Users/optimus-prime/Optimus/loans/src/main/java/com/project/loans/Repository/LoansRepository.java
+/Users/optimus-prime/Optimus/loans/src/main/java/com/project/loans/Model/Repayment.java
+/Users/optimus-prime/Optimus/loans/src/main/java/com/project/loans/Service/ContactService.java
+/Users/optimus-prime/Optimus/loans/src/main/java/com/project/loans/Controller/ContactController.java
