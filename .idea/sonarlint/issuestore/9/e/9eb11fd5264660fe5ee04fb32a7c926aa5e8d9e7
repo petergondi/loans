@@ -1,8 +1,0 @@
-
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(æåªşùÿÿÿÿ
-F
-java:S1068"*Remove this unused "amount" private field.(œ÷‘_8„ ·Ú0
-G
-java:S1068"*Remove this unused "loanId" private field.(ÿÄ†¡8˜Æ¾Ú0
-G
-java:S1068"*Remove this unused "status" private field.(·â¼8… ·Ú0

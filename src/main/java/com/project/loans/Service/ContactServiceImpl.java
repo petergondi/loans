@@ -24,4 +24,8 @@ public class ContactServiceImpl implements ContactService {
         Optional<Contact> contact = contactRepository.findById(id);
         return contact.orElse(null);
     }
+    @Override
+    public List<Contact> getByPhone(String phone) {
+        return contactRepository.findByPhone(phone);
+    }
 }

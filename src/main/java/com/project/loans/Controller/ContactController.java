@@ -1,7 +1,7 @@
 package com.project.loans.Controller;
 
 import com.project.loans.Model.Contact;
-import com.project.loans.Model.Loans;
+import com.project.loans.Model.ResponseHandler;
 import com.project.loans.Service.ContactService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,18 +21,26 @@ public class ContactController {
     @Autowired
     ContactService contactService;
     @PostMapping("/create")
-    ResponseEntity<Contact> createContact(@Validated @RequestBody Contact contact) {
-        logger.info("Received Contact Details:"+contact.toString());
-        //TODO
-        //check duplicate phone
-        return new ResponseEntity<>(contactService.saveContact(contact), HttpStatus.OK);
+    ResponseEntity<Object> createContact(@Validated @RequestBody Contact contact) {
+        try {
+            logger.info("Received Contact Details:" + contact.toString());
+            //TODO
+            //check duplicate phone
+            return ResponseHandler.generateResponse("Successfully added contact!", HttpStatus.OK, contactService.saveContact(contact));
+        } catch (Exception e) {
+            return ResponseHandler.generateResponse(e.getMessage(), HttpStatus.MULTI_STATUS, null);
+        }
     }
     @GetMapping("/getcontacts")
     ResponseEntity<List<Contact>> getContact() {
         return new ResponseEntity<>(contactService.getContactAll(), HttpStatus.OK);
     }
     @GetMapping("/getcontact/{id}")
-    ResponseEntity<Contact> oneContact(@PathVariable Long id) {
-        return new ResponseEntity<>(contactService.getOneContact(id), HttpStatus.OK);
+    ResponseEntity<Object> oneContact(@PathVariable Long id) {
+        try {
+            return ResponseHandler.generateResponse("Successfully added contact!", HttpStatus.OK, contactService.getOneContact(id));
+        } catch (Exception e) {
+            return ResponseHandler.generateResponse(e.getMessage(), HttpStatus.MULTI_STATUS, null);
+        }
     }
 }

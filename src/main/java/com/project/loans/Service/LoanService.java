@@ -14,4 +14,8 @@ public interface LoanService {
     Loans getOneLoan(Long id);
 
     Repayment repayLoan(Repayment repayment);
+
+    int checkLoan(int contactId);
+
+    int checkLoanByID(int Id,int contactID);
 }

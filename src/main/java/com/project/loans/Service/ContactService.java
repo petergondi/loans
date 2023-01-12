@@ -10,4 +10,6 @@ public interface ContactService {
     List<Contact> getContactAll();
 
     Contact getOneContact(Long id);
+
+    List<Contact> getByPhone(String phone);
 }

@@ -36,4 +36,24 @@ public class LoanServiceImpl implements LoanService{
         //else add the repayment to repayment table and subtract the running loan balance from the loans table
         return repaymentRepository.save(repayment);
     }
+    @Override
+    public int checkLoan(int contactId) {
+        int loan;
+        try{
+            loan=loanRepository.findActiveLoan(contactId);
+        }catch(Exception e){
+            loan=0;
+        }
+        return loan;
+    }
+    @Override
+    public int checkLoanByID(int Id,int ContactId) {
+        int loan;
+        try{
+            loan=loanRepository.findActiveLoanById(Id,ContactId);
+        }catch(Exception e){
+            loan=0;
+        }
+        return loan;
+    }
 }

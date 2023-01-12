@@ -1,2 +1,9 @@
 
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÛÅÅûÿÿÿÿ8­”ø§Ú0
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÛÅÅûÿÿÿÿ8£¨œ¨Ú0
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õæˆüüÿÿÿÿ
+^
+java:S1128"<Remove this unused import 'com.project.loans.Model.Contact'.(ååü‘øÿÿÿÿ8áÿö§Ú0
+M
+java:S1128
+"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8æÿö§Ú0
