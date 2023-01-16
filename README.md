@@ -34,7 +34,8 @@ period
 1.Spring boot Java 17
 2. Mysql 8
  The sql file is found inside the resources folder
-
+# Postman Collection
+https://interstellar-sunset-5393.postman.co/workspace/8735688b-cfe3-4586-966e-98d7e3c65c74/collection/4932219-1f993397-efb8-4409-b2bc-45b60f288cc6?action=share&creator=4932219
 
 
 
