@@ -7,10 +7,11 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Optional;
 
 @Repository
 public interface ContactRepository extends JpaRepository<Contact,Long> {
     @Query(value = "SELECT * FROM contacts WHERE misdn=:contact", nativeQuery = true)
-    List<Contact> findByPhone(@Param("contact") String contact);
+    Optional<Contact> findByPhone(@Param("contact") String contact);
 
 }

@@ -11,5 +11,5 @@ public interface ContactService {
 
     Contact getOneContact(Long id);
 
-    List<Contact> getByPhone(String phone);
+    Contact getByPhone(String phone);
 }

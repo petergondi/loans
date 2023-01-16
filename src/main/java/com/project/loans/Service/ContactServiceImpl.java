@@ -25,7 +25,8 @@ public class ContactServiceImpl implements ContactService {
         return contact.orElse(null);
     }
     @Override
-    public List<Contact> getByPhone(String phone) {
-        return contactRepository.findByPhone(phone);
+    public Contact getByPhone(String phone) {
+        Optional<Contact> contact=contactRepository.findByPhone(phone);
+        return contact.orElse(null);
     }
 }

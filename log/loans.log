@@ -1884,3 +1884,374 @@ java.lang.NullPointerException: Cannot invoke "com.project.loans.Model.Contact.e
 12-01-2023 13:02:57.425 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
 12-01-2023 13:02:57.494 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
 12-01-2023 13:02:57.559 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+13-01-2023 18:52:16.254 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.0.Final
+13-01-2023 18:52:16.334 [main] INFO  com.project.loans.LoansApplication.logStarting - Starting LoansApplication using Java 18.0.2 with PID 23482 (/Users/optimus-prime/Optimus/loans/target/classes started by optimus-prime in /Users/optimus-prime/Optimus/loans)
+13-01-2023 18:52:16.336 [main] INFO  com.project.loans.LoansApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+13-01-2023 18:52:18.115 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13-01-2023 18:52:18.231 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 84 ms. Found 4 JPA repository interfaces.
+13-01-2023 18:52:19.021 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+13-01-2023 18:52:19.029 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+13-01-2023 18:52:19.031 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+13-01-2023 18:52:19.031 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.4]
+13-01-2023 18:52:19.146 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+13-01-2023 18:52:19.147 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2611 ms
+13-01-2023 18:52:19.361 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+13-01-2023 18:52:19.410 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.6.Final
+13-01-2023 18:52:19.593 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+13-01-2023 18:52:19.776 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+13-01-2023 18:52:19.993 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c7cd434
+13-01-2023 18:52:19.996 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+13-01-2023 18:52:20.079 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+13-01-2023 18:52:21.041 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13-01-2023 18:52:21.050 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13-01-2023 18:52:21.582 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13-01-2023 18:52:22.124 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+13-01-2023 18:52:22.152 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+13-01-2023 18:52:22.173 [main] INFO  com.project.loans.LoansApplication.logStarted - Started LoansApplication in 6.665 seconds (process running for 8.232)
+13-01-2023 18:52:38.014 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+13-01-2023 18:52:38.022 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+13-01-2023 18:52:38.042 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+13-01-2023 18:52:46.753 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.0.Final
+13-01-2023 18:52:46.805 [main] INFO  com.project.loans.LoansApplication.logStarting - Starting LoansApplication using Java 18.0.2 with PID 23513 (/Users/optimus-prime/Optimus/loans/target/classes started by optimus-prime in /Users/optimus-prime/Optimus/loans)
+13-01-2023 18:52:46.809 [main] INFO  com.project.loans.LoansApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+13-01-2023 18:52:48.797 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13-01-2023 18:52:48.911 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 104 ms. Found 4 JPA repository interfaces.
+13-01-2023 18:52:50.510 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+13-01-2023 18:52:50.533 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+13-01-2023 18:52:50.536 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+13-01-2023 18:52:50.537 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.4]
+13-01-2023 18:52:50.705 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+13-01-2023 18:52:50.707 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3682 ms
+13-01-2023 18:52:51.102 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+13-01-2023 18:52:51.194 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.6.Final
+13-01-2023 18:52:51.510 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+13-01-2023 18:52:52.005 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+13-01-2023 18:52:52.309 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d108406
+13-01-2023 18:52:52.315 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+13-01-2023 18:52:52.416 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+13-01-2023 18:52:53.712 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13-01-2023 18:52:53.726 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13-01-2023 18:52:54.728 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13-01-2023 18:52:55.440 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+13-01-2023 18:52:55.471 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+13-01-2023 18:52:55.491 [main] INFO  com.project.loans.LoansApplication.logStarted - Started LoansApplication in 9.573 seconds (process running for 12.714)
+13-01-2023 19:05:55.459 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m2s966ms).
+13-01-2023 19:19:47.378 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m51s929ms).
+13-01-2023 19:28:53.734 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m6s357ms).
+13-01-2023 19:43:31.918 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m38s99ms).
+13-01-2023 19:50:52.203 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m20s288ms).
+13-01-2023 20:21:12.522 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m50s52ms).
+13-01-2023 20:34:05.780 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m23s221ms).
+13-01-2023 20:37:28.895 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+13-01-2023 20:37:28.930 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+13-01-2023 20:37:28.947 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+15-01-2023 13:14:22.624 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.0.Final
+15-01-2023 13:14:22.689 [main] INFO  com.project.loans.LoansApplication.logStarting - Starting LoansApplication using Java 18.0.2 with PID 31990 (/Users/optimus-prime/Optimus/loans/target/classes started by optimus-prime in /Users/optimus-prime/Optimus/loans)
+15-01-2023 13:14:22.693 [main] INFO  com.project.loans.LoansApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+15-01-2023 13:14:24.873 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15-01-2023 13:14:24.994 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 111 ms. Found 4 JPA repository interfaces.
+15-01-2023 13:14:25.988 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+15-01-2023 13:14:26.003 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+15-01-2023 13:14:26.004 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+15-01-2023 13:14:26.005 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.4]
+15-01-2023 13:14:26.137 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+15-01-2023 13:14:26.138 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3261 ms
+15-01-2023 13:14:26.376 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+15-01-2023 13:14:26.415 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.6.Final
+15-01-2023 13:14:26.552 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+15-01-2023 13:14:26.719 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+15-01-2023 13:14:26.953 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52bba91a
+15-01-2023 13:14:26.957 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+15-01-2023 13:14:27.049 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+15-01-2023 13:14:28.088 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15-01-2023 13:14:28.097 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15-01-2023 13:14:28.660 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15-01-2023 13:14:29.077 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+15-01-2023 13:14:29.092 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+15-01-2023 13:14:29.104 [main] INFO  com.project.loans.LoansApplication.logStarted - Started LoansApplication in 7.485 seconds (process running for 9.05)
+15-01-2023 13:15:51.628 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15-01-2023 13:15:51.634 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+15-01-2023 13:15:51.646 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 10 ms
+15-01-2023 13:16:47.933 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+15-01-2023 13:16:47.943 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+15-01-2023 13:16:47.963 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+15-01-2023 13:16:59.494 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.0.Final
+15-01-2023 13:16:59.524 [main] INFO  com.project.loans.LoansApplication.logStarting - Starting LoansApplication using Java 18.0.2 with PID 32023 (/Users/optimus-prime/Optimus/loans/target/classes started by optimus-prime in /Users/optimus-prime/Optimus/loans)
+15-01-2023 13:16:59.525 [main] INFO  com.project.loans.LoansApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+15-01-2023 13:17:00.714 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15-01-2023 13:17:00.806 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 83 ms. Found 4 JPA repository interfaces.
+15-01-2023 13:17:01.706 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+15-01-2023 13:17:01.716 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+15-01-2023 13:17:01.718 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+15-01-2023 13:17:01.718 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.4]
+15-01-2023 13:17:01.849 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+15-01-2023 13:17:01.849 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2214 ms
+15-01-2023 13:17:02.241 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+15-01-2023 13:17:02.318 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.6.Final
+15-01-2023 13:17:02.660 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+15-01-2023 13:17:03.161 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+15-01-2023 13:17:03.504 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13004dd8
+15-01-2023 13:17:03.507 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+15-01-2023 13:17:03.592 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+15-01-2023 13:17:04.817 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15-01-2023 13:17:04.831 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15-01-2023 13:17:05.810 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15-01-2023 13:17:06.840 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+15-01-2023 13:17:06.867 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+15-01-2023 13:17:06.883 [main] INFO  com.project.loans.LoansApplication.logStarted - Started LoansApplication in 7.942 seconds (process running for 9.327)
+15-01-2023 13:17:19.144 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15-01-2023 13:17:19.148 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+15-01-2023 13:17:19.159 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 7 ms
+15-01-2023 13:44:07.849 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m3s969ms).
+15-01-2023 14:21:32.247 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m24s182ms).
+15-01-2023 15:19:49.252 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58m17s16ms).
+15-01-2023 16:44:59.802 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m40s508ms).
+15-01-2023 17:01:40.694 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m40s893ms).
+15-01-2023 19:28:08.584 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m53s334ms).
+15-01-2023 19:29:35.081 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m26s502ms).
+15-01-2023 21:55:09.046 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m29s661ms).
+15-01-2023 22:03:01.678 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m52s637ms).
+16-01-2023 00:55:26.410 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m20s76ms).
+16-01-2023 01:12:45.667 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m49s208ms).
+16-01-2023 01:18:08.805 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m53s135ms).
+16-01-2023 01:34:29.789 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m50s964ms).
+16-01-2023 02:07:44.904 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m15s115ms).
+16-01-2023 03:19:18.542 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h11m33s639ms).
+16-01-2023 04:42:17.785 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m59s243ms).
+16-01-2023 05:46:30.530 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m12s745ms).
+16-01-2023 06:02:22.692 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m52s162ms).
+16-01-2023 06:19:54.882 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m2s165ms).
+16-01-2023 07:21:30.877 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m5s744ms).
+16-01-2023 08:10:17.662 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m46s286ms).
+16-01-2023 08:12:02.822 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s105ms).
+16-01-2023 09:09:06.906 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m33s580ms).
+16-01-2023 09:15:45.826 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m38s834ms).
+16-01-2023 10:12:37.599 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+16-01-2023 10:12:37.671 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+16-01-2023 10:12:37.692 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+16-01-2023 10:12:56.717 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.0.Final
+16-01-2023 10:12:56.767 [main] INFO  com.project.loans.LoansApplication.logStarting - Starting LoansApplication using Java 18.0.2 with PID 37987 (/Users/optimus-prime/Optimus/loans/target/classes started by optimus-prime in /Users/optimus-prime/Optimus/loans)
+16-01-2023 10:12:56.768 [main] INFO  com.project.loans.LoansApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+16-01-2023 10:12:58.123 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16-01-2023 10:12:58.208 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 69 ms. Found 4 JPA repository interfaces.
+16-01-2023 10:13:00.206 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+16-01-2023 10:13:00.216 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+16-01-2023 10:13:00.217 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+16-01-2023 10:13:00.218 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.4]
+16-01-2023 10:13:00.363 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+16-01-2023 10:13:00.364 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3507 ms
+16-01-2023 10:13:00.624 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+16-01-2023 10:13:00.678 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.6.Final
+16-01-2023 10:13:00.938 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+16-01-2023 10:13:01.131 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+16-01-2023 10:13:01.301 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52bba91a
+16-01-2023 10:13:01.302 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+16-01-2023 10:13:01.401 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16-01-2023 10:13:02.200 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16-01-2023 10:13:02.207 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16-01-2023 10:13:02.604 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16-01-2023 10:13:02.940 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+16-01-2023 10:13:02.950 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+16-01-2023 10:13:02.959 [main] INFO  com.project.loans.LoansApplication.logStarted - Started LoansApplication in 6.854 seconds (process running for 8.023)
+16-01-2023 10:14:15.262 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.project.loans.Web.LoanControllerTest]: LoanControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16-01-2023 10:14:15.525 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.project.loans.LoansApplication for test class com.project.loans.Web.LoanControllerTest
+16-01-2023 10:14:16.267 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.0.Final
+16-01-2023 10:14:16.332 [main] INFO  c.p.loans.Web.LoanControllerTest.logStarting - Starting LoanControllerTest using Java 18.0.2 with PID 38023 (started by optimus-prime in /Users/optimus-prime/Optimus/loans)
+16-01-2023 10:14:16.335 [main] INFO  c.p.loans.Web.LoanControllerTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+16-01-2023 10:14:18.126 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16-01-2023 10:14:18.334 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 196 ms. Found 4 JPA repository interfaces.
+16-01-2023 10:14:19.424 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+16-01-2023 10:14:19.477 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.6.Final
+16-01-2023 10:14:19.666 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+16-01-2023 10:14:19.864 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+16-01-2023 10:14:20.081 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54489296
+16-01-2023 10:14:20.084 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+16-01-2023 10:14:20.150 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16-01-2023 10:14:21.081 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16-01-2023 10:14:21.092 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16-01-2023 10:14:22.111 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16-01-2023 10:14:22.692 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+16-01-2023 10:14:22.692 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+16-01-2023 10:14:22.698 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+16-01-2023 10:14:22.743 [main] INFO  c.p.loans.Web.LoanControllerTest.logStarted - Started LoanControllerTest in 6.965 seconds (process running for 9.351)
+16-01-2023 10:14:23.453 [main] INFO  c.p.loans.Controller.LoansController.repayLoan - Received Loan Repayment Request:Repayment(id=0, amount=2500.0, loanId=1, smsId=0, contactId=230, createdAt=null)
+16-01-2023 10:14:23.636 [main] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+16-01-2023 10:14:23.846 [main] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+16-01-2023 10:14:23.880 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+16-01-2023 10:14:23.885 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+16-01-2023 10:14:23.912 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+16-01-2023 10:16:18.467 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.project.loans.Web.ContactControllerTest]: ContactControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16-01-2023 10:16:18.717 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.project.loans.LoansApplication for test class com.project.loans.Web.ContactControllerTest
+16-01-2023 10:16:19.295 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.0.Final
+16-01-2023 10:16:19.317 [main] INFO  c.p.loans.Web.ContactControllerTest.logStarting - Starting ContactControllerTest using Java 18.0.2 with PID 38046 (started by optimus-prime in /Users/optimus-prime/Optimus/loans)
+16-01-2023 10:16:19.319 [main] INFO  c.p.loans.Web.ContactControllerTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+16-01-2023 10:16:20.618 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16-01-2023 10:16:20.786 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 161 ms. Found 4 JPA repository interfaces.
+16-01-2023 10:16:21.573 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+16-01-2023 10:16:21.605 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.6.Final
+16-01-2023 10:16:21.721 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+16-01-2023 10:16:21.886 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+16-01-2023 10:16:22.061 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e26a3df
+16-01-2023 10:16:22.064 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+16-01-2023 10:16:22.121 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16-01-2023 10:16:23.044 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16-01-2023 10:16:23.052 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16-01-2023 10:16:23.936 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16-01-2023 10:16:24.661 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+16-01-2023 10:16:24.662 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+16-01-2023 10:16:24.669 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+16-01-2023 10:16:24.705 [main] INFO  c.p.loans.Web.ContactControllerTest.logStarted - Started ContactControllerTest in 5.781 seconds (process running for 7.676)
+16-01-2023 10:16:25.431 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+16-01-2023 10:16:25.436 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+16-01-2023 10:16:25.450 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+16-01-2023 10:23:19.742 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.project.loans.Web.ContactControllerTest]: ContactControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16-01-2023 10:23:19.999 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.project.loans.LoansApplication for test class com.project.loans.Web.ContactControllerTest
+16-01-2023 10:23:20.775 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.0.Final
+16-01-2023 10:23:20.808 [main] INFO  c.p.loans.Web.ContactControllerTest.logStarting - Starting ContactControllerTest using Java 18.0.2 with PID 38105 (started by optimus-prime in /Users/optimus-prime/Optimus/loans)
+16-01-2023 10:23:20.811 [main] INFO  c.p.loans.Web.ContactControllerTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+16-01-2023 10:23:22.801 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16-01-2023 10:23:23.096 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 241 ms. Found 4 JPA repository interfaces.
+16-01-2023 10:23:24.337 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+16-01-2023 10:23:24.401 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.6.Final
+16-01-2023 10:23:24.591 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+16-01-2023 10:23:24.892 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+16-01-2023 10:23:25.205 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e3f324e
+16-01-2023 10:23:25.214 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+16-01-2023 10:23:25.298 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16-01-2023 10:23:26.361 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16-01-2023 10:23:26.371 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16-01-2023 10:23:27.350 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16-01-2023 10:23:28.014 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+16-01-2023 10:23:28.015 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+16-01-2023 10:23:28.020 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 2 ms
+16-01-2023 10:23:28.063 [main] INFO  c.p.loans.Web.ContactControllerTest.logStarted - Started ContactControllerTest in 7.824 seconds (process running for 11.494)
+16-01-2023 10:23:28.668 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+16-01-2023 10:23:28.673 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+16-01-2023 10:23:28.687 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+16-01-2023 10:24:29.935 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-01-2023 10:24:29.951 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+16-01-2023 10:24:30.011 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 57 ms
+16-01-2023 10:26:24.562 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.project.loans.Web.ContactControllerTest]: ContactControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16-01-2023 10:26:24.854 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.project.loans.LoansApplication for test class com.project.loans.Web.ContactControllerTest
+16-01-2023 10:26:25.438 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.0.Final
+16-01-2023 10:26:25.463 [main] INFO  c.p.loans.Web.ContactControllerTest.logStarting - Starting ContactControllerTest using Java 18.0.2 with PID 38132 (started by optimus-prime in /Users/optimus-prime/Optimus/loans)
+16-01-2023 10:26:25.465 [main] INFO  c.p.loans.Web.ContactControllerTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+16-01-2023 10:26:26.873 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16-01-2023 10:26:27.107 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 214 ms. Found 4 JPA repository interfaces.
+16-01-2023 10:26:28.335 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+16-01-2023 10:26:28.394 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.6.Final
+16-01-2023 10:26:28.583 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+16-01-2023 10:26:28.776 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+16-01-2023 10:26:29.006 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b5c134e
+16-01-2023 10:26:29.008 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+16-01-2023 10:26:29.087 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16-01-2023 10:26:30.110 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16-01-2023 10:26:30.124 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16-01-2023 10:26:30.860 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16-01-2023 10:26:31.566 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+16-01-2023 10:26:31.568 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+16-01-2023 10:26:31.584 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 3 ms
+16-01-2023 10:26:31.664 [main] INFO  c.p.loans.Web.ContactControllerTest.logStarted - Started ContactControllerTest in 6.589 seconds (process running for 8.974)
+16-01-2023 10:26:32.449 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+16-01-2023 10:26:32.455 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+16-01-2023 10:26:32.473 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+16-01-2023 10:29:03.018 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.project.loans.Web.ContactControllerTest]: ContactControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16-01-2023 10:29:03.265 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.project.loans.LoansApplication for test class com.project.loans.Web.ContactControllerTest
+16-01-2023 10:29:03.748 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.0.Final
+16-01-2023 10:29:03.807 [main] INFO  c.p.loans.Web.ContactControllerTest.logStarting - Starting ContactControllerTest using Java 18.0.2 with PID 38168 (started by optimus-prime in /Users/optimus-prime/Optimus/loans)
+16-01-2023 10:29:03.811 [main] INFO  c.p.loans.Web.ContactControllerTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+16-01-2023 10:29:04.989 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16-01-2023 10:29:05.128 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 132 ms. Found 4 JPA repository interfaces.
+16-01-2023 10:29:05.982 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+16-01-2023 10:29:06.017 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.6.Final
+16-01-2023 10:29:06.159 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+16-01-2023 10:29:06.331 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+16-01-2023 10:29:06.499 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13ef7fa1
+16-01-2023 10:29:06.503 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+16-01-2023 10:29:06.555 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16-01-2023 10:29:07.376 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16-01-2023 10:29:07.384 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16-01-2023 10:29:08.153 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16-01-2023 10:29:08.883 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+16-01-2023 10:29:08.884 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+16-01-2023 10:29:08.888 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 2 ms
+16-01-2023 10:29:08.921 [main] INFO  c.p.loans.Web.ContactControllerTest.logStarted - Started ContactControllerTest in 5.486 seconds (process running for 7.509)
+16-01-2023 10:29:09.614 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+16-01-2023 10:29:09.618 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+16-01-2023 10:29:09.631 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+16-01-2023 10:30:53.721 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.project.loans.Web.ContactControllerTest]: ContactControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16-01-2023 10:30:53.999 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.project.loans.LoansApplication for test class com.project.loans.Web.ContactControllerTest
+16-01-2023 10:30:54.485 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.0.Final
+16-01-2023 10:30:54.548 [main] INFO  c.p.loans.Web.ContactControllerTest.logStarting - Starting ContactControllerTest using Java 18.0.2 with PID 38191 (started by optimus-prime in /Users/optimus-prime/Optimus/loans)
+16-01-2023 10:30:54.550 [main] INFO  c.p.loans.Web.ContactControllerTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+16-01-2023 10:30:55.734 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16-01-2023 10:30:55.913 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 172 ms. Found 4 JPA repository interfaces.
+16-01-2023 10:30:56.685 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+16-01-2023 10:30:56.723 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.6.Final
+16-01-2023 10:30:56.842 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+16-01-2023 10:30:57.027 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+16-01-2023 10:30:57.192 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13ef7fa1
+16-01-2023 10:30:57.195 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+16-01-2023 10:30:57.245 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16-01-2023 10:30:58.160 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16-01-2023 10:30:58.170 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16-01-2023 10:30:59.154 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16-01-2023 10:31:00.012 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+16-01-2023 10:31:00.013 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+16-01-2023 10:31:00.017 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+16-01-2023 10:31:00.065 [main] INFO  c.p.loans.Web.ContactControllerTest.logStarted - Started ContactControllerTest in 5.898 seconds (process running for 8.062)
+16-01-2023 10:31:00.816 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+16-01-2023 10:31:00.820 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+16-01-2023 10:31:00.839 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+16-01-2023 10:33:32.678 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.project.loans.Web.ContactControllerTest]: ContactControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16-01-2023 10:33:32.917 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.project.loans.LoansApplication for test class com.project.loans.Web.ContactControllerTest
+16-01-2023 10:33:33.527 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.0.Final
+16-01-2023 10:33:33.574 [main] INFO  c.p.loans.Web.ContactControllerTest.logStarting - Starting ContactControllerTest using Java 18.0.2 with PID 38217 (started by optimus-prime in /Users/optimus-prime/Optimus/loans)
+16-01-2023 10:33:33.576 [main] INFO  c.p.loans.Web.ContactControllerTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+16-01-2023 10:33:34.808 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16-01-2023 10:33:34.906 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 89 ms. Found 4 JPA repository interfaces.
+16-01-2023 10:33:35.774 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+16-01-2023 10:33:35.809 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.6.Final
+16-01-2023 10:33:35.953 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+16-01-2023 10:33:36.115 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+16-01-2023 10:33:36.306 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23b1aa9
+16-01-2023 10:33:36.310 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+16-01-2023 10:33:36.365 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16-01-2023 10:33:37.243 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16-01-2023 10:33:37.251 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16-01-2023 10:33:38.075 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16-01-2023 10:33:38.860 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+16-01-2023 10:33:38.862 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+16-01-2023 10:33:38.867 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+16-01-2023 10:33:38.906 [main] INFO  c.p.loans.Web.ContactControllerTest.logStarted - Started ContactControllerTest in 5.775 seconds (process running for 7.659)
+16-01-2023 10:33:39.557 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+16-01-2023 10:33:39.561 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+16-01-2023 10:33:39.574 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+16-01-2023 10:38:35.700 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+16-01-2023 10:38:45.955 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "all"]
+16-01-2023 10:39:10.251 [http-nio-8080-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "all"]
+16-01-2023 10:39:36.981 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.project.loans.Web.ContactControllerTest]: ContactControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16-01-2023 10:39:37.275 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.project.loans.LoansApplication for test class com.project.loans.Web.ContactControllerTest
+16-01-2023 10:39:37.844 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.0.Final
+16-01-2023 10:39:37.910 [main] INFO  c.p.loans.Web.ContactControllerTest.logStarting - Starting ContactControllerTest using Java 18.0.2 with PID 38265 (started by optimus-prime in /Users/optimus-prime/Optimus/loans)
+16-01-2023 10:39:37.913 [main] INFO  c.p.loans.Web.ContactControllerTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+16-01-2023 10:39:39.179 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16-01-2023 10:39:39.286 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 100 ms. Found 4 JPA repository interfaces.
+16-01-2023 10:39:40.138 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+16-01-2023 10:39:40.187 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.6.Final
+16-01-2023 10:39:40.320 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+16-01-2023 10:39:40.497 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+16-01-2023 10:39:40.719 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@935d3f9
+16-01-2023 10:39:40.722 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+16-01-2023 10:39:40.782 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16-01-2023 10:39:41.680 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16-01-2023 10:39:41.689 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16-01-2023 10:39:42.496 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16-01-2023 10:39:43.259 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+16-01-2023 10:39:43.260 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+16-01-2023 10:39:43.264 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+16-01-2023 10:39:43.300 [main] INFO  c.p.loans.Web.ContactControllerTest.logStarted - Started ContactControllerTest in 5.808 seconds (process running for 7.852)
+16-01-2023 10:39:43.953 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+16-01-2023 10:39:43.957 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+16-01-2023 10:39:43.972 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+16-01-2023 10:40:06.293 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "all"]

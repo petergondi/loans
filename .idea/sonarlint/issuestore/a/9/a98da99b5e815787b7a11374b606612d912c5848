@@ -1,3 +1,3 @@
 
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(æåªşùÿÿÿÿ
-r	java:S116"QRename this field "MSISDN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç‹¨ùÿÿÿÿ8¢å““Ú0
+j	java:S116"URename this field "created_at" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üœæè
