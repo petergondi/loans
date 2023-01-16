@@ -32,9 +32,11 @@ public class LoansController {
         logger.info("Received Loan Request:"+loan.toString());
         try {
             if (loan.getContactId() == 0) {
+                logger.info("Input id not entered");
                 return ResponseHandler.generateResponse("Please input a contact id!!", HttpStatus.BAD_REQUEST, null);
             }
             if (contactService.getOneContact((long) loan.getContactId()) == null) {
+                logger.info("Contact do not exist");
                 return ResponseHandler.generateResponse("The contact do not exist please register first!!", HttpStatus.BAD_REQUEST, null);
             }
             if (loanService.checkLoan(loan.getContactId()) == 0) {
@@ -45,11 +47,13 @@ public class LoansController {
                 loan.setRunningBalance(loan.getAmount());
                 loan.setStatus("ACTIVE");
                 loan.setSmsId((int) notify.getId());
+                logger.info("Loan Disbursed Successfully!");
                 return ResponseHandler.generateResponse("Loan Disbursed Successfully!", HttpStatus.CREATED, loanService.saveLoan(loan));
-
             }
+            logger.info("You have an existing loan!");
             return ResponseHandler.generateResponse("You have an existing loan please complete it first!!", HttpStatus.BAD_REQUEST, null);
         }catch(Exception e){
+            logger.error("An error occured when making the request!"+e.getMessage());
             return ResponseHandler.generateResponse(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR, null);
         }
     }
