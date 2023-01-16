@@ -16,16 +16,16 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 public class LoanControllerTest extends IntegrationTest {
     @Test
     void listLoans() throws Exception {
-        mvc.perform((get("/loans", 1)))
+        mvc.perform((get("/loan/all", 1)))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.content[*].contact_id", hasItem("402")));
+                .andExpect(jsonPath("$.data[:1].contactId", hasItem(402)));
     }
 
     @Test
     void getLoanDetails() throws Exception {
-        mvc.perform((get("/loan/{id}", 1, 202)))
+        mvc.perform((get("/loan/{id}", 202)))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.contact_id", equalTo("452")));
+                .andExpect(jsonPath("$.data.contactId", equalTo(452)));
     }
 
     @Test
@@ -36,12 +36,12 @@ public class LoanControllerTest extends IntegrationTest {
     @Test
     void disburseLoan() throws Exception {
         mvc.perform(
-                        post("/loan/create", 1)
+                        post("/loan/disburse", 1)
                                 .contentType(MediaType.APPLICATION_JSON)
-                                .content("{\"contactId\":\"3\",\"amount\":\"5000\"}")
+                                .content("{\"contactId\":\"402\",\"amount\":\"5000\"}")
                 )
                 .andExpect(status().isCreated())
-                .andExpect(jsonPath("$.id", greaterThan(0)));
+                .andExpect(jsonPath("$.data.contactId", greaterThan(0)));
     }
 
     @Test
@@ -49,29 +49,41 @@ public class LoanControllerTest extends IntegrationTest {
         mvc.perform(
                         post("/loan/repay", 1)
                                 .contentType(MediaType.APPLICATION_JSON)
-                                .content("{\"loanId\":\"1\",\"contactId\":\"230\",\"amount\":\"2500\"}")
+                                .content("{\"loanId\":\"202\",\"contactId\":\"452\",\"amount\":\"2500\"}")
                 )
                 .andExpect(status().isCreated())
-                .andExpect(jsonPath("$.id", greaterThan(0)));
+                .andExpect(jsonPath("$.data.contactId", greaterThan(0)));
     }
     @Test
-    void loanIdMissing() throws Exception {
+    void requestLoanWithPendingLoan() throws Exception {
         mvc.perform(
-                        post("/loan/{id}", 1)
+                        post("/loan/disburse", 1)
                                 .contentType(MediaType.APPLICATION_JSON)
+                                .content("{\"contactId\":\"102\",\"amount\":\"5000\"}")
                                 .content("{}")
                 )
                 .andExpect(status().isBadRequest());
     }
     @Test
-    void contentMissing() throws Exception {
+    void repayNonExistingLoan() throws Exception {
         mvc.perform(
-                        post("/disburse")
+                        post("/loan/repay", 1)
                                 .contentType(MediaType.APPLICATION_JSON)
-                                .content("{\"title\":\"something missing\"}")
+                                .content("{\"loanId\":\"400\",\"contactId\":\"452\",\"amount\":\"2500\"}")
+                                .content("{}")
                 )
                 .andExpect(status().isBadRequest());
     }
+    @Test
+    void loanIdMissing() throws Exception {
+        mvc.perform(
+                        post("/loan/disburse", 1)
+                                .contentType(MediaType.APPLICATION_JSON)
+                                .content("{}")
+                )
+                .andExpect(status().isBadRequest());
+    }
+
 
 
 

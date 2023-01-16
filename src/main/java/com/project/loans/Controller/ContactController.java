@@ -28,12 +28,15 @@ public class ContactController {
             if(contactService.getByPhone(contact.getMSISDN())!=null) {
                 return ResponseHandler.generateResponse("The contact already exists!!", HttpStatus.BAD_REQUEST, null);
             }
+            if(contact.getMSISDN()==null || contact.getFullName()==null) {
+                return ResponseHandler.generateResponse("Missing contact or fullname details!!", HttpStatus.BAD_REQUEST, null);
+            }
             return ResponseHandler.generateResponse("Successfully added contact!", HttpStatus.CREATED, contactService.saveContact(contact));
         } catch (Exception e) {
             return ResponseHandler.generateResponse(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR, null);
         }
     }
-    @GetMapping("/all")
+    @GetMapping
     ResponseEntity<Object> getContact() {
         try {
             List<Contact> contact_result = contactService.getContactAll();

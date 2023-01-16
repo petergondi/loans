@@ -53,14 +53,14 @@ public class LoansController {
             return ResponseHandler.generateResponse(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR, null);
         }
     }
-    @GetMapping("/{id}")
-    ResponseEntity<Object> getOneLoan(@PathVariable Long id) {
+    @GetMapping("{id}")
+    ResponseEntity<Object> getOneLoan(@PathVariable("id") Long id) {
         try{
             Loans loan=loanService.getOneLoan(id);
             if(loan==null){
-                return ResponseHandler.generateResponse("Loan details do not exist", HttpStatus.NOT_FOUND, loanService.getOneLoan(id));
+                return ResponseHandler.generateResponse("Loan details do not exist", HttpStatus.NOT_FOUND,null);
             }
-            return ResponseHandler.generateResponse("Success", HttpStatus.OK, loanService.getOneLoan(id));
+            return ResponseHandler.generateResponse("Success", HttpStatus.OK, loan);
 
         }catch(Exception e){
             return ResponseHandler.generateResponse(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR, null);

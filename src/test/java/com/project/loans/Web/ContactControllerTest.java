@@ -16,16 +16,16 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 public class ContactControllerTest extends IntegrationTest {
     @Test
     void listContact() throws Exception {
-        mvc.perform((get("/contacts/all", 1)))
+        mvc.perform((get("/contacts", 1)))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.data[0].full_name", hasItem("Peter Test")));
+                .andExpect(jsonPath("$.data[:1].fullName", hasItem("Peter Test")));
     }
 
     @Test
     void getContactDetails() throws Exception {
-        mvc.perform((get("/contacts/{id}", 1, 402)))
+        mvc.perform((get("/contacts/{id}", 402)))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.msisdn", equalTo("07586763456")));
+                .andExpect(jsonPath("$.data.msisdn", equalTo("07586763456")));
     }
 
     @Test
@@ -37,17 +37,17 @@ public class ContactControllerTest extends IntegrationTest {
     @Test
     void createContact() throws Exception {
         mvc.perform(
-                        post("/contact/create", 1)
+                        post("/contacts/create", 1)
                                 .contentType(MediaType.APPLICATION_JSON)
                                 .content("{\"fullName\":\"John Doe\",\"msisdn\":\"07646375\"}")
                 )
                 .andExpect(status().isCreated())
-                .andExpect(jsonPath("$.id", greaterThan(0)));
+                .andExpect(jsonPath("$.data.id", greaterThan(0)));
     }
     @Test
     void contactMissing() throws Exception {
         mvc.perform(
-                        post("/contact", 1)
+                        post("/contacts/create", 1)
                                 .contentType(MediaType.APPLICATION_JSON)
                                 .content("{}")
                 )

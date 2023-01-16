@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @Repository
 public interface ContactRepository extends JpaRepository<Contact,Long> {
-    @Query(value = "SELECT * FROM contacts WHERE misdn=:contact", nativeQuery = true)
+    @Query(value = "SELECT * FROM contacts WHERE msisdn=:contact", nativeQuery = true)
     Optional<Contact> findByPhone(@Param("contact") String contact);
 
 }
