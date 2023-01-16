@@ -25,11 +25,11 @@ l
 <src/main/java/com/project/loans/Service/LoanServiceImpl.java,e/8/e8f26b3aa281b4ff2a0aadb92c9a883991a79c98
 o
 ?src/main/java/com/project/loans/Repository/LoansRepository.java,1/a/1a6d4e3b1e467b38d872f11bc57ed526580ceab8
-b
-2src/main/java/com/project/loans/Model/Contact.java,c/a/ca467cd752db8b91a73759f3573e292fbf79cffd
 k
 ;src/main/java/com/project/loans/Service/ContactService.java,3/4/345305c9e0f2c05cb4cd1538b1bd0689b72dbcf3
 o
 ?src/main/java/com/project/loans/Service/ContactServiceImpl.java,5/f/5f5e21721fd5f88bbbd3134c1e89cefc46d65100
 q
 Asrc/main/java/com/project/loans/Repository/ContactRepository.java,3/2/32c95130bc730634253b9e1862146c39705a069f
+k
+;src/test/java/com/project/loans/Web/LoanControllerTest.java,7/b/7b744892190b2d2baa97c81b8cd48391303ab024
