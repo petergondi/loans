@@ -33,7 +33,7 @@ period
 # Tools Used
 1.Spring boot Java 17
 2. Mysql 8
- The sql file is found inside the properties file
+ The sql file is found inside the resources folder
 
 
 
