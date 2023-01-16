@@ -11,11 +11,11 @@ This api is a simple loan simulation that exposes endpoints for doing the follow
 ## 1 Description:
 - Summarized request paths and description for contact creation
 
-| Method | Path             | Description                                      |
-|--------|------------------|--------------------------------------------------|
+| Method | Path             | Description                                            |
+|--------|------------------|--------------------------------------------------------|
 | GET    | /contacts        | Returns a paginated list of all the requested contacts |
-| POST   | /contacts/create | Adds new contact                                 |
-| GET    | /contacts/{id}   | Retrieves the full details of a single loan      |
+| POST   | /contacts/create | Adds new contact                                       |
+| GET    | /contacts/{id}   | Retrieves the full details of a single contact              |
 
 - Summarized request paths and description for loan request and repayment
 
